@@ -70,4 +70,18 @@ bun run dev
 
 ---
 
+## 🌐 Deployment
+
+### Vercel (Current)
+To deploy on Vercel, ensure you have set the following environment variables in the Vercel Dashboard:
+- `VITE_CONTRACT_ADDRESS`: Your deployed GenLayer contract address.
+
+### Cloudflare Pages (Recommended)
+This project is configured for Cloudflare out of the box. To deploy:
+1. Connect your repo to Cloudflare Pages.
+2. Set the build command to `npm run build`.
+3. Set the output directory to `dist/client`.
+
+---
+
 Built for the GenLayer Hackathon.
